@@ -1,0 +1,149 @@
+.App {
+  text-align: center;
+  font-family:'Outfit','Poppins', sans-serif;
+  line-height: 1.2;
+}
+
+.App-header {
+  background: rgb(173,188,165);
+  background: linear-gradient(180deg, var(--Orange, #adbca5) /* {"name":"Orange"} */ 0%, #E09891 100%);
+  height: 1100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Main-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 900px;
+  padding-top: 100px;
+}
+
+#logo {
+  background: rgb(173,188,165);
+  display: flex;
+  justify-content: flex-start;
+  font-size: 24px;
+  font-weight: bold;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.header-left {
+  width: 600px;
+  text-align: left;
+  color: white;
+}
+
+.header-left h1 {
+  font-size: 75px;
+  width: 500px
+}
+
+.header-left p {
+  font-size: 26px;
+  width: 500px;
+}
+
+.notifyButtonBlack {
+  padding:15px;
+  border-style: none;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.header-right {
+  width: 500px;
+}
+
+#headerPhone {
+  width: 350px;
+}
+
+.FeelingUnsafe-section {
+  background: white;
+  height: 900px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.FeelingUnsafe-left {
+  width: 500px;
+  text-align: left;
+}
+
+.FeelingUnsafe-left h1 {
+  font-size: 60px;
+  width: 400px;
+}
+
+.FeelingUnsafe-left p {
+  font-size: 30px;
+  width: 400px;
+  color: rgb(90, 90, 90);
+}
+
+.FeelingUnsafe-right {
+  width: 500px;
+}
+
+#safePhone {
+  width: 550px;
+}
+
+.notifyButtonGreen {
+  padding:15px;
+  border-style: none;
+  background-color: rgb(173,188,165);;
+  color: white;
+  font-size: 18px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.Gethelp-section {
+  background: #fff4f1;
+  height: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Gethelp-section h1 {
+  font-size: 60px;
+}
+
+.Gethelp-section p {
+  color: rgb(90, 90, 90);
+  font-size: 30px;
+  width: 800px;
+}
+
+#gethelpPhone {
+  padding-top: 50px;
+  height: 600px;
+}
+
+.Footer {
+  height: 200px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.socials a {
+  padding: 10px;
+}
+
+@media only screen and (device-width: 1280px),
+only screen and (max-width:1280px) {
+
+   }
