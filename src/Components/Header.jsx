@@ -16,7 +16,7 @@ const Header = () => {
             <p>
               Tella.Friend is a child's second line of defense. Get notified when the Tella.Friend app is available.
             </p>
-            <button className="notifyButtonBlack">Get Notified</button>
+            <a href='http://eepurl.com/ijjwnz' target="_blank" rel="noreferrer"><button className="notifyButtonBlack">Get Notified</button></a>
           </div>
           <div className="header-right">
             <img src={Phone} id="headerPhone" alt="app in phone rendered"/>

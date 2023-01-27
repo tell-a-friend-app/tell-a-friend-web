@@ -46,6 +46,10 @@
   width: 500px;
 }
 
+.header-left a button:hover {
+  cursor: pointer;
+}
+
 .notifyButtonBlack {
   padding:15px;
   border-style: none;
