@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="socials">
         <a href="https://www.instagram.com/tella.friendapp/"><AiFillInstagram color="black"/></a>
         <a href="https://www.tiktok.com/@tellafriend.app/"><FaTiktok color="black"/></a>
-        <a href="https://www.linkedin.com/company/tell-a-friend-app//"><FaLinkedin color="black"/></a>
+        <a href="https://www.linkedin.com/company/tella-friend/"><FaLinkedin color="black"/></a>
       </div>
     </footer>
   )

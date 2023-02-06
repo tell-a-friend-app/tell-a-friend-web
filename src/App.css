@@ -1,6 +1,7 @@
 .App {
   text-align: center;
-  font-family:'Outfit','Poppins', sans-serif;
+  font-family:'Inter', sans-serif;
+  letter-spacing: -1.5;
   line-height: 1.2;
 }
 
@@ -44,6 +45,10 @@
 .header-left p {
   font-size: 26px;
   width: 500px;
+}
+
+.header-left div {
+  display: flex;
 }
 
 .header-left a button:hover {
@@ -147,7 +152,175 @@
   padding: 10px;
 }
 
-@media only screen and (device-width: 1280px),
-only screen and (max-width:1280px) {
+@media only screen and (min-width: 320px)
+and (max-width: 600px) {
+  html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative;
+  }
 
-   }
+  .App {
+    text-align: center;
+    font-family:'Inter', sans-serif;
+  }
+
+  .App-header {
+    background: rgb(173,188,165);
+    background: linear-gradient(180deg, var(--Orange, #adbca5) /* {"name":"Orange"} */ 0%, #E09891 100%);
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Main-header {
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: auto;
+  }
+
+  #logo {
+    background: rgb(173,188,165);
+    display: flex;
+    justify-content: flex-start;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 10px;
+  }
+
+  .header-left {
+    text-align: left;
+    color: white;
+    width: 100%;
+  }
+
+  .header-left h1 {
+    font-size: 55px;
+    width: 90%;
+  }
+
+  .header-left p {
+    font-size: 24px;
+    width: 90%;
+  }
+
+  .header-left div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .header-left a button:hover {
+    cursor: pointer;
+  }
+
+  .notifyButtonBlack {
+    margin-top: 20px;
+    padding:15px;
+    border-style: none;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    align-self: center;
+    width: 100%;
+  }
+
+  .header-right {
+
+  }
+
+  #headerPhone {
+    display: none;
+  }
+
+  .FeelingUnsafe-section {
+    background: white;
+    height: 1300px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .FeelingUnsafe-left {
+    width: 350px;
+    text-align: left;
+  }
+
+  .FeelingUnsafe-left h1 {
+    font-size: 55px;
+    width: 350px;
+  }
+
+  .FeelingUnsafe-left p {
+    font-size: 24px;
+    width: 350px;
+    color: rgb(90, 90, 90);
+  }
+
+  .FeelingUnsafe-right {
+    width: 350px;
+  }
+
+  #safePhone {
+    width: 350px;
+  }
+
+  .notifyButtonGreen {
+    padding:15px;
+    border-style: none;
+    background-color: rgb(173,188,165);;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    font-weight: bold;
+  }
+
+  .Gethelp-section {
+    background: #fff4f1;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Gethelp-section h1 {
+    font-size: 55px;
+    width: 350px;
+    text-align: left;
+  }
+
+  .Gethelp-section p {
+    color: rgb(90, 90, 90);
+    font-size: 24px;
+    width: 350px;
+    text-align: left;
+  }
+
+  #gethelpPhone {
+    padding-top: 50px;
+    height: 450px;
+
+  }
+
+  .Footer {
+    height: 200px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .socials a {
+    padding: 10px;
+  }
+}

@@ -10,7 +10,7 @@ const GetHelp = () => {
             Get the help you need
           </h1>
           <p>
-            Tella.Friend provides a direct and safe communication line with your school counselor to help you receive support.
+            tella.friend provides a direct and safe communication line with your school counselor to help you receive support.
           </p>
           <img src={Phone} alt="App reporting process" id="gethelpPhone"/>
       </header>

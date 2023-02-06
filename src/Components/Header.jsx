@@ -11,12 +11,14 @@ const Header = () => {
         <div className="Main-header">
           <div className="header-left">
             <h1>
-              Help is closer thank you think.
+              Help is closer than you think.
             </h1>
             <p>
-              Tella.Friend is a child's second line of defense. Get notified when the Tella.Friend app is available.
+              tella.friend is a child's second line of defense. Join the waitlist to get notified when the tella.friend app is available.
             </p>
-            <a href='http://eepurl.com/ijjwnz' target="_blank" rel="noreferrer"><button className="notifyButtonBlack">Get Notified</button></a>
+            <div>
+              <a href='http://eepurl.com/ijjwnz' target="_blank" rel="noreferrer"><button className="notifyButtonBlack">Join the waitlist</button></a>
+            </div>
           </div>
           <div className="header-right">
             <img src={Phone} id="headerPhone" alt="app in phone rendered"/>

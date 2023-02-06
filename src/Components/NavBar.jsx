@@ -4,7 +4,7 @@ import '../App.css';
 const NavBar = () => {
   return (
     <div>
-      <p id="logo">Tella.Friend</p>
+      <p id="logo">tella.friend</p>
     </div>
   )
 }
