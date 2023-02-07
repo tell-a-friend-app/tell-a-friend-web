@@ -3,7 +3,7 @@ import NavBar from './NavBar';
 import Phone from '../headerPhone.png';
 import '../App.css';
 
-const Header = () => {
+const Header = ({show}) => {
   return (
     <div>
       <header className="App-header">
@@ -17,7 +17,7 @@ const Header = () => {
               tella.friend is a child's second line of defense. Join the waitlist to get notified when the tella.friend app is available.
             </p>
             <div>
-              <a href='http://eepurl.com/ijjwnz' target="_blank" rel="noreferrer"><button className="notifyButtonBlack">Join the waitlist</button></a>
+              <button className="notifyButtonBlack" onClick={show}>Join the waitlist</button>
             </div>
           </div>
           <div className="header-right">
